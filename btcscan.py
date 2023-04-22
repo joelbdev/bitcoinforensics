@@ -1,33 +1,4 @@
-#    Copyright 2014 Chris Cohen
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU General Public License as published by
-#    the Free Software Foundation, either version 3 of the License, or
-#    (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU General Public License for more details.
-#
-#    You should have received a copy of the GNU General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-# LIMITATIONS - Does not search encrypted / compressed items.
-# LIMITATIONS - Does not search for pure hex addresses/keys. 
-# LIMITATIONS - Does not search for testnet items only mainnet.
-# LIMITATIONS - Most likely only works on Windows / Python 3
-
-# TO DO - mini private keys https://en.bitcoin.it/wiki/Mini_private_key_format
-# TO DO - BIP39 Mnemonic - "cake apple borrow silk endorse fitness top denial coil riot stay wolf luggage oxygen faint major edit measure invite love trap field dilemma oblige"
-
-# I would be very interesting in hearing from you if you find this program of use. 
-# Email:     chris.w.cohen@gmail.com
-# Donations: 1BnvsBZcyVxF8L8HboUcDc2mAUu9K2qsTe
-# Accompanying Article: https://articles.forensicfocus.com/2015/01/16/forensics-bitcoin/
-
-# (Update 31/03/18) Feedback has indicated that certain versions of Python 3 causes the script to fail.
-# BTCscan.py has been confirmed to work under Python 3.5.3, 3.6.1 and 3.7.
 
 import re
 import sys
